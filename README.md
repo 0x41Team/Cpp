@@ -51,6 +51,11 @@ b = &a; // Gán b trỏ vào địa chỉ của a
 ```cpp
 void* a; // Có thể nhận mọi kiểu dữ liệu nhưng phải ép kiểu.
 ```
+> Ép kiểu cho dữ liệu của con trỏ.
+```cpp
+*(int *)b;
+```
+
 
 ##### Phân biệt biến thường và biến kiểu con trỏ.
 
